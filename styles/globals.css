@@ -1,5 +1,9 @@
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-background {
+  animation: gradientBackground 15s ease infinite;
+}
